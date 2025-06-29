@@ -86,37 +86,37 @@ spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 ```
 
-🔗 Sample API Endpoints
-Patients
-GET /api/patients – List all patients
+# 🔗 Sample API Endpoints
+##Patients
+- **GET /api/patients – List all patients
 
-POST /api/patients – Create a new patient
+- **POST /api/patients – Create a new patient
 
-GET /api/patients/{id} – Get patient by ID
+- **GET /api/patients/{id} – Get patient by ID
 
-PUT /api/patients/{id} – Update existing patient
+- **PUT /api/patients/{id} – Update existing patient
 
-DELETE /api/patients/{id} – Delete a patient
+- **DELETE /api/patients/{id} – Delete a patient
 
-Doctors
-GET /api/doctors
+##Doctors
+- **GET /api/doctors
 
-POST /api/doctors
+- **POST /api/doctors
 
-GET /api/doctors/{id} – Get Doctor by ID
+- **GET /api/doctors/{id} – Get Doctor by ID
 
-PUT /api/patients/{id} – Update existing Doctor
+- **PUT /api/patients/{id} – Update existing Doctor
 
-DELETE /api/patients/{id} – Delete a Doctor
+- **DELETE /api/patients/{id} – Delete a Doctor
 
 ...
 
-Appointments
-GET /api/appointments
+##Appointments
+- **GET /api/appointments
 
-POST /api/appointments
+- **POST /api/appointments
 
-Billing
-GET /api/bills
+##Billing
+- **GET /api/bills
 
-POST /api/bills
+- **POST /api/bills
